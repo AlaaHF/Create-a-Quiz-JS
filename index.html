@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Random Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div>
+    <h1>RANDOM QUIZ</h1>
+    <hr>
+
+    <h2>Question 1</h2>
+    <p>What country uses the flag below?
+      (<a href="https://en.wikipedia.org/wiki/Canada" target=_blank>HINT</a>)
+    </p>
+    <img class="black-border" src="Media/Canada Flag.jpg" alt="Canada Flag" width="400px">
+    <p class="italic"> Answer: <input id="answer-q1" type="text"></p>
+    <p><span id="feedback1">-----</span></p>
+    <hr>
+
+    <h2>Question 2</h2>
+    <p>Which of the following is <strong>not</strong> a piece used in chess?</p>
+    <ul>
+      <li>Pawn</li>
+      <li>Knight</li>
+      <li>Cardinal</li>
+      <li>Rook</li>
+      <li>Queen</li>
+      <li>King</li>
+    </ul>
+    <p class="italic"> Answer: <input id="answer-q2" type="text"></p>
+    <p><span id="feedback2">-----</span></p>
+    <hr>
+
+    <h2>Question 3</h2>
+    <p>Who is Po <em>(The Kung Fu Panda)</em> scared of in this audio clip?</p>
+    <img src="Media/Po.jpg" alt="Po" width="200px">
+    <p>
+      <audio controls
+        src="Media/he-could-have-killed-you-why-didn't-he-so-you-could-come-back-and-strike-fear-into-our-hearts-but-it-won't-work-it-might-i-mean-a-little-i'm-pretty-scared (1).mp3"></audio>
+    </p>
+    <p class="italic"> Answer: <input id="answer-q3" type="text"></p>
+    <p><span id="feedback3">-----</span></p>
+    <hr>
+
+    <h2>Question 4</h2>
+    <p>Who is your Computing Science Teacher?
+    </p>
+    <p class="italic"> Answer: <input id="answer-q4" type="text"></p>
+    <p><span id="feedback4">-----</span></p>
+    <hr>
+
+    <h2>Results</h2>
+    <p><button id="mark-btn">Mark Quiz</button><span id="result"> Your score is <span id="mark">___</span> / 4 (<span id="percentage">___</span> %).</p></span>
+    <p id="thanks">Thanks for taking this <span>Random Quiz!</span></p>
+    <em><p id="comment">-----</p></em>
+    <button id="reset-btn">Reset Quiz</button>
+
+  </div>
+
+  <!--Load JavaScript-->
+  <script src="main.js"></script>
+</body>
+
+</html>
